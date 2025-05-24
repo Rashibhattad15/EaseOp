@@ -1,0 +1,35 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Debug Jest Tests",
+      "program": "${workspaceFolder}/debugJest.js",
+      "args": [
+        "--runTestsByPath",
+        "${relativeFile}",
+        "--config",
+        "jest.config.js"
+      ],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen"
+    },
+    {
+      "name": "Attach",
+      "port": 5000,
+      "request": "attach",
+      "skipFiles": ["<node_internals>/**"],
+      "type": "node"
+    },
+    {
+      "name": "Attach to Node.js",
+      "type": "node",
+      "request": "attach",
+      "port": 9229,
+      // "restart": true,
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}

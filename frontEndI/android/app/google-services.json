@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "857288419045",
+    "firebase_url": "https://firbaseauth-3356e-default-rtdb.firebaseio.com",
+    "project_id": "firbaseauth-3356e",
+    "storage_bucket": "firbaseauth-3356e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:857288419045:android:4fef23e51fee462d57d60c",
+        "android_client_info": {
+          "package_name": "com.example.fcmcheck"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjrxPiau4SOEqpNczV3MJksfYh4qLWIJU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:857288419045:android:5463394bca8a48a757d60c",
+        "android_client_info": {
+          "package_name": "com.example.firbaseauth"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjrxPiau4SOEqpNczV3MJksfYh4qLWIJU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
